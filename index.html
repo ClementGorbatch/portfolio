@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément Gorbatch - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Clément Gorbatch</h1>
+        <p>BUT Informatique - 2e année</p>
+        <nav>
+            <ul>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#journey">Parcours</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="presentation">
+        <h2>Présentation</h2>
+        <p>Je m'appelle Clément Gorbatch, étudiant en 2e année de BUT Informatique. Passionné par les nouvelles technologies et le développement logiciel, je suis toujours à la recherche de nouveaux défis et opportunités pour améliorer mes compétences.</p>
+        <a href="https://www.linkedin.com/in/clement-gorbatch-a31216299/" target="_blank">Mon LinkedIn</a>
+    </section>
+
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="project">
+            <h3>Projet 1: Système de Gestion de Bibliothèque</h3>
+            <p>Description du projet avec des détails sur les technologies utilisées, les défis rencontrés, etc.</p>
+        </div>
+        <div class="project">
+            <h3>Projet 2: Application de Suivi de Fitness</h3>
+            <p>Description du projet avec des détails sur les technologies utilisées, les défis rencontrés, etc.</p>
+        </div>
+    </section>
+    
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Programmation : Python, JavaScript, Java</li>
+            <li>Développement Web : HTML, CSS, React</li>
+            <li>Bases de données : SQL, MongoDB</li>
+            <li>Outils : Git, Docker</li>
+        </ul>
+    </section>
+    
+
+    <section id="journey">
+        <h2>Parcours</h2>
+        <ul>
+            <li>2022-2024 : BUT Informatique - IUT Ville</li>
+            <li>2020-2022 : Baccalauréat Scientifique - Lycée Nom</li>
+        </ul>
+    </section>
+
+    <section id="cv">
+        <h2>Télécharger mon CV</h2>
+        <button onclick="getCv()"> Télécharger le CV </button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<script>
+    function getCv(){
+        window.open('CV_Clement_Gorbatch.pdf', '_blank')
+    }
+</script>
